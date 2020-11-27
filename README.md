@@ -10,12 +10,15 @@ need to determine which cards, if any, provide us with the best odds of
 improving our hand if we discard them.  
 
 I have decided upon the following strategy: 
+
     - I will first check if we have any hands which are likely to win.  These 
       include Straights, Flushes, 4-of-a-kind, 3-of-a-kind, If we have those we are just going to
       keep that hand, since they are high ranked. 
+    
     - If we don't have a high value hand, we will find our highest pair and 
       keep those cards, and discard other unecessary cards in order to 
       maximize our chances of getting 3 of a kind.
+    
     - If we don't have a pair, then we will discard all of our cards except for the highest in order to maximize
       the chances of getting at least a pair (hopefully 3 of a kind)
 
